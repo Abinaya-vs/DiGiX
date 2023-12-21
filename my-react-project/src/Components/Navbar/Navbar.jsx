@@ -32,4 +32,4 @@ const toogle_mode=()=>{
   )
 }
 
-export default Navbar
+export default Navbar;

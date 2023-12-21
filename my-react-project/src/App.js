@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import LoginForm from './Components/LoginForm/LoginForm';
-import SigninForm from './Components/SigninForm/SigninForm';
 import Aboutus from './Components/About us/Aboutus';
-import HomePage from './Components/HomePage/HomePage';
+import LoginForm from './Components/LoginForm/LoginForm';
 import Navbar from './Components/Navbar/Navbar';
+import SigninForm from './Components/SigninForm/SigninForm';
+import HomePage from './Components/HomePage/HomePage';
 function App() {
   const current_theme=localStorage.getItem('current_theme');
   const [theme, setTheme] = useState(current_theme ? current_theme:'light');

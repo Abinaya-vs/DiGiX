@@ -1,6 +1,6 @@
 import React from 'react';
 import './Aboutus.css';
-const AboutUs = () => {
+const Aboutus = () => {
   return (
     <div className="about-us-container">
       <h1>About Us</h1>
@@ -51,4 +51,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Aboutus;

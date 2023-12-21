@@ -47,4 +47,4 @@ const SigninForm = () => {
     </div>
   )
 }
-export default SigninForm
+export default SigninForm;
